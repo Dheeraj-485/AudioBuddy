@@ -2,7 +2,7 @@ import React from 'react'
 import "./App.css"
 
 
-import { CartCard, Header } from './components'
+import { Header } from './components'
 import {Allroutes}  from "./routes/Allroutes"
 
 const App = () => {
@@ -11,7 +11,7 @@ const App = () => {
       <Header/>
       <Allroutes/>
 
-      {/* <CartCard/> */}
+      
   </div>
   )
 }
